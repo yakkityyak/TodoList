@@ -19,6 +19,7 @@
 		405FE32E2872FA2F00AE1E26 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE32D2872FA2F00AE1E26 /* EmailTextField.swift */; };
 		405FE3302872FD9900AE1E26 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE32F2872FD9900AE1E26 /* CustomSecureField.swift */; };
 		405FE3322873043B00AE1E26 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE3312873043B00AE1E26 /* PasswordSecureField.swift */; };
+		405FE33428730D0800AE1E26 /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE33328730D0800AE1E26 /* AuthenticateButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		405FE32D2872FA2F00AE1E26 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		405FE32F2872FD9900AE1E26 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		405FE3312873043B00AE1E26 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
+		405FE33328730D0800AE1E26 /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +69,8 @@
 		405FE30C2872D2B000AE1E26 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
-				405FE31E2872D87800AE1E26 /* ViewModel */,
-				405FE31D2872D86F00AE1E26 /* View */,
 				405FE31B2872D85900AE1E26 /* Model */,
+				405FE31D2872D86F00AE1E26 /* View */,
 				405FE30D2872D2B000AE1E26 /* TodoListApp.swift */,
 				405FE30F2872D2B000AE1E26 /* ContentView.swift */,
 				405FE3112872D2B400AE1E26 /* Assets.xcassets */,
@@ -98,6 +99,7 @@
 			children = (
 				405FE3212872DC5100AE1E26 /* Utils */,
 				405FE3222872DC6500AE1E26 /* Authentication */,
+				405FE31E2872D87800AE1E26 /* ViewModel */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +117,7 @@
 				405FE32C2872FA1300AE1E26 /* TextFields */,
 				405FE3262872DDAE00AE1E26 /* BackgroundGradientView.swift */,
 				405FE3282872E47D00AE1E26 /* LogoView.swift */,
+				405FE33328730D0800AE1E26 /* AuthenticateButtonView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				405FE3292872E47D00AE1E26 /* LogoView.swift in Sources */,
 				405FE3322873043B00AE1E26 /* PasswordSecureField.swift in Sources */,
 				405FE3242872DCB600AE1E26 /* SignupView.swift in Sources */,
+				405FE33428730D0800AE1E26 /* AuthenticateButtonView.swift in Sources */,
 				405FE3202872D96B00AE1E26 /* LoginView.swift in Sources */,
 				405FE3102872D2B000AE1E26 /* ContentView.swift in Sources */,
 				405FE30E2872D2B000AE1E26 /* TodoListApp.swift in Sources */,
