@@ -11,18 +11,44 @@ struct DashboardView: View {
     
     let user: AppUser
     
+    @State var searchText: String = ""
+    
+    @ObservedObject var viewModel = TODOViewModel()
+    
     var body: some View {
         
-        VStack {
-            Text("DashboardView")
-            Button {
-                AuthViewModel.shared.signout()
-            } label: {
-                Text("log out")
-            }
-            .padding()
+        ZStack {
+            
+            VStack {
+                
+                HStack {
+                    Spacer()
+                    Text("- TodoList -")
+                        .font(.system(size: 24))
+                        .fontWeight(.semibold)
+                    Spacer()
+                } // End of HStack
+                .overlay{
+                    HStack{
+                        Spacer()
+                        Button {
+                            AuthViewModel.shared.signout()
+                        } label: {
+                            Text("Logout")
+                                .foregroundColor(Color(.systemGray))
+                        }
+                        .padding(.trailing)
 
-        }
+                    }
+                } // End of HStack Overlay
+                
+                SearchBarView(searchText: $searchText)
+                    .padding()
+                
+            } // end of VStack
+            
+        } // End of ZStack
+        
     }
 }
 

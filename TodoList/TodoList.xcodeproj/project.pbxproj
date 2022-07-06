@@ -39,6 +39,7 @@
 		405FE35A2874485800AE1E26 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE3592874485800AE1E26 /* AuthViewModel.swift */; };
 		405FE35C287457CD00AE1E26 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE35B287457CD00AE1E26 /* DashboardView.swift */; };
 		405FE35E2875773E00AE1E26 /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE35D2875773E00AE1E26 /* TODOViewModel.swift */; };
+		405FE360287596A800AE1E26 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE35F287596A800AE1E26 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		405FE3592874485800AE1E26 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		405FE35B287457CD00AE1E26 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		405FE35D2875773E00AE1E26 /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
+		405FE35F287596A800AE1E26 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				405FE3262872DDAE00AE1E26 /* BackgroundGradientView.swift */,
 				405FE3282872E47D00AE1E26 /* LogoView.swift */,
 				405FE33328730D0800AE1E26 /* AuthenticateButtonView.swift */,
+				405FE35F287596A800AE1E26 /* SearchBarView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				405FE351287433FF00AE1E26 /* TODO.swift in Sources */,
 				405FE35C287457CD00AE1E26 /* DashboardView.swift in Sources */,
 				405FE35A2874485800AE1E26 /* AuthViewModel.swift in Sources */,
+				405FE360287596A800AE1E26 /* SearchBarView.swift in Sources */,
 				405FE3292872E47D00AE1E26 /* LogoView.swift in Sources */,
 				405FE3322873043B00AE1E26 /* PasswordSecureField.swift in Sources */,
 				405FE3242872DCB600AE1E26 /* SignupView.swift in Sources */,
