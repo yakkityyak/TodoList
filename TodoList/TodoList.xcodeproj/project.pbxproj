@@ -36,6 +36,8 @@
 		405FE3532874356600AE1E26 /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE3522874356600AE1E26 /* SelectedButton.swift */; };
 		405FE3562874377000AE1E26 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 405FE3552874377000AE1E26 /* FirebaseFirestoreSwift */; };
 		405FE358287437D300AE1E26 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE357287437D300AE1E26 /* MockData.swift */; };
+		405FE35A2874485800AE1E26 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE3592874485800AE1E26 /* AuthViewModel.swift */; };
+		405FE35C287457CD00AE1E26 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE35B287457CD00AE1E26 /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		405FE350287433FF00AE1E26 /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		405FE3522874356600AE1E26 /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
 		405FE357287437D300AE1E26 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		405FE3592874485800AE1E26 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		405FE35B287457CD00AE1E26 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				405FE34B2874301600AE1E26 /* Utils */,
 				405FE31B2872D85900AE1E26 /* Model */,
 				405FE31D2872D86F00AE1E26 /* View */,
+				405FE31E2872D87800AE1E26 /* ViewModel */,
 				405FE30D2872D2B000AE1E26 /* TodoListApp.swift */,
 				405FE30F2872D2B000AE1E26 /* ContentView.swift */,
 				405FE3112872D2B400AE1E26 /* Assets.xcassets */,
@@ -138,7 +143,7 @@
 			children = (
 				405FE3212872DC5100AE1E26 /* Utils */,
 				405FE3222872DC6500AE1E26 /* Authentication */,
-				405FE31E2872D87800AE1E26 /* ViewModel */,
+				405FE35B287457CD00AE1E26 /* DashboardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 		405FE31E2872D87800AE1E26 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				405FE3592874485800AE1E26 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -291,6 +297,8 @@
 				405FE3532874356600AE1E26 /* SelectedButton.swift in Sources */,
 				405FE3272872DDAE00AE1E26 /* BackgroundGradientView.swift in Sources */,
 				405FE351287433FF00AE1E26 /* TODO.swift in Sources */,
+				405FE35C287457CD00AE1E26 /* DashboardView.swift in Sources */,
+				405FE35A2874485800AE1E26 /* AuthViewModel.swift in Sources */,
 				405FE3292872E47D00AE1E26 /* LogoView.swift in Sources */,
 				405FE3322873043B00AE1E26 /* PasswordSecureField.swift in Sources */,
 				405FE3242872DCB600AE1E26 /* SignupView.swift in Sources */,
@@ -428,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TodoList/Preview Content\"";
+				DEVELOPMENT_TEAM = AW23H396XM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TodoList/Preview Content\"";
+				DEVELOPMENT_TEAM = AW23H396XM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
