@@ -31,7 +31,7 @@ struct TODO: Identifiable, Decodable {
         } else if TODOType == "Personal" {
             return .personal
         } else {
-            return .exstra
+            return .extra
         }
     }
 }

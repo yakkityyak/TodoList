@@ -15,7 +15,7 @@ enum SelectedButton: String {
     case school = "School"
     case home = "Home"
     case personal = "Personal"
-    case exstra = "Exstra"
+    case extra = "Extra"
     
     func getValue() -> String {
         return self.rawValue

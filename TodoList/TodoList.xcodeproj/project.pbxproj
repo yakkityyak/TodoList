@@ -40,6 +40,8 @@
 		405FE35C287457CD00AE1E26 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE35B287457CD00AE1E26 /* DashboardView.swift */; };
 		405FE35E2875773E00AE1E26 /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE35D2875773E00AE1E26 /* TODOViewModel.swift */; };
 		405FE360287596A800AE1E26 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE35F287596A800AE1E26 /* SearchBarView.swift */; };
+		405FE3622875A5F400AE1E26 /* TODOButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE3612875A5F400AE1E26 /* TODOButtonStack.swift */; };
+		405FE3642875AFEF00AE1E26 /* AddTODOLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FE3632875AFEF00AE1E26 /* AddTODOLogo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		405FE35B287457CD00AE1E26 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		405FE35D2875773E00AE1E26 /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
 		405FE35F287596A800AE1E26 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		405FE3612875A5F400AE1E26 /* TODOButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOButtonStack.swift; sourceTree = "<group>"; };
+		405FE3632875AFEF00AE1E26 /* AddTODOLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTODOLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 				405FE3282872E47D00AE1E26 /* LogoView.swift */,
 				405FE33328730D0800AE1E26 /* AuthenticateButtonView.swift */,
 				405FE35F287596A800AE1E26 /* SearchBarView.swift */,
+				405FE3612875A5F400AE1E26 /* TODOButtonStack.swift */,
+				405FE3632875AFEF00AE1E26 /* AddTODOLogo.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 				405FE351287433FF00AE1E26 /* TODO.swift in Sources */,
 				405FE35C287457CD00AE1E26 /* DashboardView.swift in Sources */,
 				405FE35A2874485800AE1E26 /* AuthViewModel.swift in Sources */,
+				405FE3622875A5F400AE1E26 /* TODOButtonStack.swift in Sources */,
 				405FE360287596A800AE1E26 /* SearchBarView.swift in Sources */,
 				405FE3292872E47D00AE1E26 /* LogoView.swift in Sources */,
 				405FE3322873043B00AE1E26 /* PasswordSecureField.swift in Sources */,
@@ -316,6 +323,7 @@
 				405FE3102872D2B000AE1E26 /* ContentView.swift in Sources */,
 				405FE30E2872D2B000AE1E26 /* TodoListApp.swift in Sources */,
 				405FE32E2872FA2F00AE1E26 /* EmailTextField.swift in Sources */,
+				405FE3642875AFEF00AE1E26 /* AddTODOLogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
