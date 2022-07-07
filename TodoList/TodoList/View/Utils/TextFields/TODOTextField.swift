@@ -13,7 +13,7 @@ struct TODOTextField: View {
     let placeholder: String
     
     var body: some View {
-        CustomTextField(text: $text, placeholder: Text(placeholder), imageName: "chechmark.square", foregroundColor: .gray)
+        CustomTextField(text: $text, placeholder: Text(placeholder), imageName: "checkmark.square", foregroundColor: .gray)
             .padding()
             .background(Color(.systemGray6))
             .cornerRadius(10)

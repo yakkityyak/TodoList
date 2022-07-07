@@ -27,12 +27,12 @@ struct CreateTODOView: View {
             TODOTextField(text: $title, placeholder: "TODO...")
                 .padding([.horizontal, .bottom])
             
-            CustomTextEditor(text: $TODODescription, placeholder: Text("Description..."), imageName: "line.3.horisontal", foregroundColor: .gray)
+            CustomTextEditor(text: $TODODescription, placeholder: Text("Description..."), imageName: "line.3.horizontal", foregroundColor: .gray)
                 .padding([.horizontal, .bottom])
             
             HStack{
                 Button {
-                    viewModel.uploadTODO(todo: TODO( ownerID: user.id ?? "", title: title, description: TODODescription, TODOType: viewModel.filterTODOSelected == .all ? "Extra" : viewModel.filterTODOSelected.rawValue, completed: false))
+                    viewModel.uploadTODO(todo: TODO( ownerUid: user.id ?? "", title: title, description: TODODescription, TODOType: viewModel.filterTODOSelected == .all ? "Extra" : viewModel.filterTODOSelected.rawValue, completed: false))
                     viewModel.showCreateTODOView = false
                 } label: {
                     CreateTODOButton()

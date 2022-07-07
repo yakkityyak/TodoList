@@ -12,10 +12,10 @@ import FirebaseFirestoreSwift
 struct TODO: Identifiable, Decodable {
     
     @DocumentID var id: String? = UUID().uuidString
-    let ownerID: String
-    let title: String
-    let description: String
-    let TODOType: String
+    let ownerUid : String
+    var title: String
+    var description: String
+    var TODOType: String
     var completed: Bool
     var documentID: String? = ""
     

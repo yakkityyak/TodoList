@@ -7,23 +7,23 @@
 
 import SwiftUI
 
-struct BlackView: View {
+struct BlankView: View {
     var body: some View {
         VStack {
             Spacer()
         }
-        .frame(minWidth: 0, maxWidth: nil, minHeight: 0, maxHeight: nil, alignment: .center)
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
         .background(.black)
-        opacity(0.5)
-        edgesIgnoringSafeArea(.all)
-        onTapGesture {
+        .opacity(0.5)
+        .edgesIgnoringSafeArea(.all)
+        .onTapGesture {
             
         }
     }
 }
 
-struct BlackView_Previews: PreviewProvider {
+struct BlankView_Previews: PreviewProvider {
     static var previews: some View {
-        BlackView()
+        BlankView()
     }
 }

@@ -14,6 +14,8 @@ struct CustomTextEditor: View {
     let imageName: String
     var foregroundColor: Color?
     
+    @Environment(\.colorScheme) var colorScheme
+    
     init(text: Binding<String>, placeholder: Text, imageName: String, foregroundColor: Color?) {
         self._text = text
         self.placeholder = placeholder
@@ -25,22 +27,23 @@ struct CustomTextEditor: View {
     }
     
     var body: some View {
-        ZStack(alignment: .leading){
+        ZStack(alignment: .leading) {
             VStack {
-                HStack{
+                HStack {
                     if text.isEmpty {
                         placeholder
                             .foregroundColor(foregroundColor ?? Color(.init(white: 1, alpha: 0.8)))
                             .padding(.leading, 60)
                     }
                     Spacer()
-                } //End of HStack
+                }
                 .padding([.vertical], 10)
                 Spacer()
-            } // End of VStack
+            }
             
-            HStack{
-                VStack{
+            HStack {
+                
+                VStack {
                     Image(systemName: imageName)
                         .resizable()
                         .scaledToFit()
@@ -53,12 +56,14 @@ struct CustomTextEditor: View {
                 
                 TextEditor(text: $text)
                     .autocapitalization(.none)
+                    
             }
-        } // End og ZStack
+            
+        }
         .frame(height: 120)
         .background(Color(.systemGray6))
         .cornerRadius(10)
-        .foregroundColor(.white)
+        .foregroundColor(colorScheme == .dark ? .white : .black)
     }
 }
 
@@ -67,7 +72,7 @@ struct CustomTextEditor_Previews: PreviewProvider {
         ZStack {
             Color.black
                 .ignoresSafeArea()
-            CustomTextEditor(text: .constant(""), placeholder: Text("Descrition"), imageName: "line.3.horizontal", foregroundColor: .gray)
+            CustomTextEditor(text: .constant(""), placeholder: Text("Description"), imageName: "line.3.horizontal", foregroundColor: .gray)
         }
     }
 }

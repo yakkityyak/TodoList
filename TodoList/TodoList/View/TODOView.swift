@@ -24,8 +24,7 @@ struct TODOView: View {
                     viewModel.completeTODO(todoId: todo.documentID ?? "")
                 }
             } label: {
-                Image(systemName: todo.completed ? "checkmark.square.fill" :
-                "square")
+                Image(systemName: todo.completed ? "checkmark.square.fill" : "square")
                 .resizable()
                 .frame(width: 25, height: 25)
                 .foregroundColor(Color("lightBlue"))
