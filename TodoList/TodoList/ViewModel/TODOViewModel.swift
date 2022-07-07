@@ -43,6 +43,18 @@ class TODOViewModel: ObservableObject {
             }
         }
     }
+    
+    func deleteTODO(todoId: String) {
+        guard let uid = AuthViewModel.shared.userSession?.uid else { return }
+        
+        COLLECTION_USERS.document(uid).collection("to-dos").document(todoId).delete() { error in
+            if let error = error {
+                print("DEBUG: \(error.localizedDescription)")
+                return
+            }
+            self.loadTODOs()
+        }
+    }
 
     func uploadTODO(todo: TODO) {
         guard let user = AuthViewModel.shared.currentUser else { return }
